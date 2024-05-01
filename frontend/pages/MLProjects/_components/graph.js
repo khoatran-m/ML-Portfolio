@@ -6,7 +6,7 @@ import axios from "axios";
 
 const Graph = () => {
     const [imageUrl, setImageUrl] = useState('');
-    const local_server_endpoint = "" // TODO
+    const local_server_endpoint = "https://aiscworkshop2024-production.up.railway.app"
     useEffect(() => {
         const fetchImage = async () => {
             try {
